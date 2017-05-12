@@ -2,10 +2,12 @@ import cv2
 import sys
 import numpy as np
 
+
 def show_img(image, name):
-    cv2.namedWindow(name, cv2.WINDOW_NORMAL)
-    cv2.imshow(name, image)
-    cv2.waitKey(0)
+    xd = 5
+    # cv2.namedWindow(name, cv2.WINDOW_NORMAL)
+    # cv2.imshow(name, image)
+    # cv2.waitKey(0)
 
 
 # Load the image
@@ -45,6 +47,7 @@ horizontal = cv2.dilate(horizontal, horizontalStructure, iterations=1)
 
 # Show extracted horizontal lines
 show_img(horizontal, 'horizontal')
+cv2.imwrite('img/horizontal.png', horizontal)
 
 # Specify size on vertical axis
 verticalSize = imgSize[0] / 30
@@ -58,11 +61,13 @@ vertical = cv2.dilate(vertical, verticalStructure, iterations=1)
 
 # Show extracted vertical lines
 show_img(vertical, 'vertical')
+cv2.imwrite('img/vertical.png', vertical)
 
 ##################################
 # Inverse vertical image
 cv2.bitwise_not(vertical, vertical);
 show_img(vertical, 'vertical_bit')
+cv2.imwrite('img/vertical_bit.png', vertical)
 
 # Extract edges and smooth image according to the logic
 # 1. extract edges
@@ -75,11 +80,13 @@ show_img(vertical, 'vertical_bit')
 # edges = np.ndarray(np.shape(vertical))
 edges = cv2.adaptiveThreshold(vertical, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 3, -2)
 show_img(edges, "edges")
+cv2.imwrite('img/edges.png', edges)
 
 # Step 2
-kernel = np.array(2, 2) # , cv2.CV_8UC1)
+kernel = (2, 2) # , cv2.CV_8UC1)
 edges = cv2.dilate(edges, kernel)
-show_img("dilate", edges)
+show_img(edges, "dilate")
+cv2.imwrite('img/dilate.png', edges)
 
 # Step 3
 smooth = vertical.copy()
@@ -92,6 +99,6 @@ vertical = smooth.copy()
 
 # Show final result
 show_img(vertical, "smooth")
-
+cv2.imwrite('img/smooth.png', vertical)
 
 sys.exit(0)
