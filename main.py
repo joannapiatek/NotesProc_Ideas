@@ -4,31 +4,23 @@ import numpy as np
 
 
 def show_img(image, name):
-    xd = 5
-    # cv2.namedWindow(name, cv2.WINDOW_NORMAL)
-    # cv2.imshow(name, image)
-    # cv2.waitKey(0)
+    cv2.namedWindow(name, cv2.WINDOW_NORMAL)
+    cv2.imshow(name, image)
+    cv2.waitKey(0)
 
 
-# Load the image
-img = cv2.imread('img/frag.jpg', 0)
+filename = 'img/frag'
+# Load the image in grayscale
+img = cv2.imread(filename + '.jpg', 0)
 
 # Check if image is loaded fine
 #
 
-# Show source image
-# cv2.namedWindow('image', cv2.WINDOW_NORMAL)
-# cv2.imshow('image', img)
-# cv2.waitKey(0)
-
-# Transform source image to gray if it is not
+# Binarize
+img = cv2.GaussianBlur(img, (11, 11), 0)
 low_val = 150
 ret, binarized_img = cv2.threshold(img, low_val, 255, cv2.THRESH_BINARY_INV)
-
-# Show binarized image
-# cv2.namedWindow('binarized image', cv2.WINDOW_NORMAL)
-# cv2.imshow('binarized image', binarized_img)
-# cv2.waitKey(0)
+cv2.imwrite(filename + '_binarized.png', binarized_img)
 
 # Create the images that will use to extract the horizontal and vertical lines
 horizontal = binarized_img.copy()
@@ -46,8 +38,8 @@ horizontal = cv2.erode(horizontal, horizontalStructure, iterations=1)
 horizontal = cv2.dilate(horizontal, horizontalStructure, iterations=1)
 
 # Show extracted horizontal lines
-show_img(horizontal, 'horizontal')
-cv2.imwrite('img/horizontal.png', horizontal)
+# show_img(horizontal, 'horizontal')
+cv2.imwrite(filename + '_horizontal.png', horizontal)
 
 # Specify size on vertical axis
 verticalSize = imgSize[0] / 30
@@ -60,14 +52,14 @@ vertical = cv2.erode(vertical, verticalStructure, iterations=1)
 vertical = cv2.dilate(vertical, verticalStructure, iterations=1)
 
 # Show extracted vertical lines
-show_img(vertical, 'vertical')
-cv2.imwrite('img/vertical.png', vertical)
+# show_img(vertical, 'vertical')
+cv2.imwrite(filename + '_vertical.png', vertical)
 
 ##################################
 # Inverse vertical image
-cv2.bitwise_not(vertical, vertical);
-show_img(vertical, 'vertical_bit')
-cv2.imwrite('img/vertical_bit.png', vertical)
+cv2.bitwise_not(vertical, vertical)
+# show_img(vertical, 'vertical_bit')
+cv2.imwrite(filename + '_vertical_bit.png', vertical)
 
 # Extract edges and smooth image according to the logic
 # 1. extract edges
@@ -77,28 +69,32 @@ cv2.imwrite('img/vertical_bit.png', vertical)
 # 5. smooth.copyTo(src, edges)
 
 # Step 1
-# edges = np.ndarray(np.shape(vertical))
 edges = cv2.adaptiveThreshold(vertical, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 3, -2)
-show_img(edges, "edges")
-cv2.imwrite('img/edges.png', edges)
+# show_img(edges, "edges")
+cv2.imwrite(filename + '_edges.png', edges)
 
 # Step 2
-kernel = (2, 2) # , cv2.CV_8UC1)
+# , cv2.CV_8UC1)
+kernel = np.ones((2, 2), np.uint8)
 edges = cv2.dilate(edges, kernel)
-show_img(edges, "dilate")
-cv2.imwrite('img/dilate.png', edges)
+# show_img(edges, "dilate")
+cv2.imwrite(filename + '_dilate.png', edges)
 
 # Step 3
 smooth = vertical.copy()
 
 # Step 4
-smooth = cv2.blur(smooth, (2, 2))
+smooth = cv2.GaussianBlur(smooth, (9, 9), 0)
+# smooth = cv2.bilateralFilter(smooth, 9, 75, 75)
+# smooth = cv2.blur(smooth, (2, 2))
+cv2.imwrite(filename + '_smooth_blur.png', smooth)
 
+vertical = smooth * (edges.astype(smooth.dtype))
 # Step 5
-vertical = smooth.copy()
 
 # Show final result
-show_img(vertical, "smooth")
-cv2.imwrite('img/smooth.png', vertical)
+cv2.bitwise_not(vertical, vertical)
+# show_img(vertical, "smooth")
+cv2.imwrite(filename + '_smooth.png', vertical)
 
 sys.exit(0)
