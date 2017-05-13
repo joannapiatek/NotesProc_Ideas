@@ -76,7 +76,7 @@ cv2.imwrite(filename + '_edges.png', edges)
 # Step 2
 # , cv2.CV_8UC1)
 kernel = np.ones((2, 2), np.uint8)
-edges = cv2.dilate(edges, kernel)
+edges = cv2.dilate(edges, kernel, iterations=2)
 # show_img(edges, "dilate")
 cv2.imwrite(filename + '_dilate.png', edges)
 
@@ -84,9 +84,7 @@ cv2.imwrite(filename + '_dilate.png', edges)
 smooth = vertical.copy()
 
 # Step 4
-smooth = cv2.GaussianBlur(smooth, (9, 9), 0)
-# smooth = cv2.bilateralFilter(smooth, 9, 75, 75)
-# smooth = cv2.blur(smooth, (2, 2))
+smooth = cv2.blur(smooth, (4, 4))
 cv2.imwrite(filename + '_smooth_blur.png', smooth)
 
 vertical = smooth * (edges.astype(smooth.dtype))

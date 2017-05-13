@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669adfb-a6d6-4e5e-ab5b-e19c2e87e2b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dilate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/edges.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/smooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vertical_bit.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frag_dilate.png" afterPath="$PROJECT_DIR$/img/frag_dilate.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frag_smooth.png" afterPath="$PROJECT_DIR$/img/frag_smooth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frag_smooth_blur.png" afterPath="$PROJECT_DIR$/img/frag_smooth_blur.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
@@ -27,8 +24,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="255">
+              <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -39,7 +36,7 @@
       <file leaf-file-name="binarization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NotesProc/binarization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="85">
               <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
@@ -95,6 +92,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -109,8 +108,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -335,6 +332,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NotesProc/binarization.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NotesProc/binarization.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="74" />
           <folding />
@@ -345,7 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -395,13 +409,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../NotesProc/binarization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="85">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
@@ -409,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
