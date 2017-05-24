@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669adfb-a6d6-4e5e-ab5b-e19c2e87e2b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinesServices/Morphology.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinesServices/Separation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinesServices/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ImageServices/InOutService.py" afterPath="$PROJECT_DIR$/ImageServices/InOut.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thresholding.py" afterPath="$PROJECT_DIR$/thresholding.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_bilateral_threshold.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_binarized.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_dilate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_edges.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_grayscale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_smooth_blur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/frag_vertical_bit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/nuty.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_binarized.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_dilate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_edges.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_smooth_blur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img - Copy/wwwtest_vertical_bit.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/LinesServices/Morphology.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -622,7 +636,7 @@
     <entry file="file://$PROJECT_DIR$/LinesServices/Morphology.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
