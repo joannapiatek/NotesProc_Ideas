@@ -1,0 +1,1 @@
+def get_stafflines_from_horizontal(horizontal)
