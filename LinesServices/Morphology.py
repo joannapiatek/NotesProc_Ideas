@@ -18,7 +18,7 @@ def get_vertical_structure(vertical_size):
 
 
 def get_horizontal_lines(img, img_width):
-    horizontal_size = img_width / 30
+    horizontal_size = img_width / 25
     horizontal_structure = get_horizontal_structure(horizontal_size)
     return erode_and_dilate(img, horizontal_structure, 1)
 
@@ -36,7 +36,7 @@ def smooth_image_with_saving(img, filename):
     cv2.imwrite(filename + '_edges.png', edges)
 
     # Step 2 - dilate(edges)
-    kernel = np.ones((2, 2), np.uint8)
+    kernel = np.ones((5, 5), np.uint8)
     edges = cv2.dilate(edges, kernel, iterations=2)
     cv2.imwrite(filename + '_dilate.png', edges)
 
@@ -46,7 +46,7 @@ def smooth_image_with_saving(img, filename):
     # Step 4 - blur smooth img
     smooth = cv2.blur(smooth, (4, 4))
     cv2.imwrite(filename + '_smooth_blur.png', smooth)
-    smooth_edges = smooth * (edges.astype(smooth.dtype))
 
+    smooth_edges = smooth * (edges.astype(smooth.dtype))
     cv2.bitwise_not(smooth_edges, smooth_edges)
     cv2.imwrite(filename + '_smooth.png', smooth_edges)
