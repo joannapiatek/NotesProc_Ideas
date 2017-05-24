@@ -1,13 +1,7 @@
 import cv2
 import sys
 import numpy as np
-
-
-def show_img(image, name):
-    cv2.namedWindow(name, cv2.WINDOW_NORMAL)
-    cv2.imshow(name, image)
-    cv2.waitKey(0)
-
+# import ImageServices.InOutService as ios
 
 filename = 'img/frag'
 # Load the image in grayscale
