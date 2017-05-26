@@ -18,4 +18,4 @@ def run_morphology_operations(binarized_img, filename):
     cv2.bitwise_not(horizontal, horizontal)
     cv2.imwrite(filename + '_horizontal_bit.png', horizontal)
 
-    Morph.smooth_image_with_saving(vertical, filename)
+    #Morph.smooth_image_with_saving(vertical, filename)

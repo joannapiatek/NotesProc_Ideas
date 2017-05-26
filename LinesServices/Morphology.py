@@ -26,7 +26,8 @@ def get_horizontal_lines(img, img_width):
 def get_vertical_lines(img, img_height):
     vertical_size = img_height / 30
     vertical_structure = get_vertical_structure(vertical_size)
-    return erode_and_dilate(img, vertical_structure, 1)
+    vertical = erode_and_dilate(img, vertical_structure, 1)
+    return finishing_dilate(vertical)
 
 
 def smooth_image_with_saving(img, filename):
@@ -50,3 +51,9 @@ def smooth_image_with_saving(img, filename):
     smooth_edges = smooth * (edges.astype(smooth.dtype))
     cv2.bitwise_not(smooth_edges, smooth_edges)
     cv2.imwrite(filename + '_smooth.png', smooth_edges)
+
+
+# uzaleznic (5,5) od rozmiaru pieciolini. pomyslec nad normowaniem
+def finishing_dilate(img):
+    kernel = np.ones((5, 5), np.uint8)
+    return cv2.dilate(img, kernel, iterations=1)
