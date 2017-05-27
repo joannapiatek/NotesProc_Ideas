@@ -1,6 +1,6 @@
 import numpy as np
 import Constants.Colors as Color
-import Models.Elements as Elements
+import Models.Geometry as Geom
 import ImageServices.InOut as Img_io
 
 
@@ -17,8 +17,10 @@ def paste_horizontal_notes_elements(vertical_notes, horizontal_lines):
             continue
 
         for j in range(0, img_width - 1):
-            pixel = Elements.Pixel(i, j, horizontal_lines[i, j])
-            if (pixel.value == Color.BLACK) and not (is_line_staffline(horizontal_lines, pixel)):
+            pixel = Geom.Pixel(i, j, horizontal_lines[i, j])
+            if (pixel.value == Color.BLACK) \
+                    and not (is_pixel_in_staffline(horizontal_lines, pixel))\
+                    and not (is_pixel_by_staffline(horizontal_lines, pixel, img_height)):
                     result[i, j] = Color.BLACK
 
     return result
@@ -31,20 +33,35 @@ def clear_stafflines_from_notes_elements(horizontal_lines):
 
     for i in range(0, img_height - 1):
         for j in range(0, img_width - 1):
-            pixel = Elements.Pixel(i, j, cleared_image[i, j])
-            if (pixel.value == Color.BLACK) and not (is_line_staffline(cleared_image, pixel)):
+            pixel = Geom.Pixel(i, j, cleared_image[i, j])
+            if (pixel.value == Color.BLACK) \
+                    and not (is_pixel_in_staffline(cleared_image, pixel)):
                 cleared_image[i, j] = Color.WHITE
 
     return cleared_image
 
 
-def is_line_staffline(img, pixel):
+def is_pixel_in_staffline(img, pixel):
     row = img[pixel.x_coor, :]
 
     line_lenght = check_line_lenght(row, pixel)
     img_width = np.shape(img)[1]
 
     return line_lenght > 0.2 * img_width
+
+
+def is_pixel_by_staffline(img, pixel, img_height):
+
+    if pixel.x_coor + 2 < img_height:
+        pixel_below = Geom.Pixel(pixel.x_coor + 2, pixel.y_coor, Color.WHITE)
+        pixel_below.value = img[pixel_below.x_coor, pixel_below.y_coor]
+        if is_pixel_in_staffline(img, pixel_below):
+            return True
+
+    if pixel.x_coor - 2 >= 0:
+        pixel_above = Geom.Pixel(pixel.x_coor - 2, pixel.y_coor, Color.WHITE)
+        pixel_above.value = img[pixel_above.x_coor, pixel_above.y_coor]
+        return is_pixel_in_staffline(img, pixel_above)
 
 
 def check_line_lenght(row, pixel):

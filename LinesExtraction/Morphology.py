@@ -18,9 +18,10 @@ def get_vertical_structure(vertical_size):
 
 
 def get_horizontal_lines(img, img_width):
-    horizontal_size = img_width / 25
+    horizontal_size = img_width / 30
     horizontal_structure = get_horizontal_structure(horizontal_size)
-    return erode_and_dilate(img, horizontal_structure, 1)
+    horizontal = erode_and_dilate(img, horizontal_structure, 1)
+    return finishing_dilate(horizontal)
 
 
 def get_vertical_lines(img, img_height):
@@ -55,5 +56,6 @@ def smooth_image_with_saving(img, filename):
 
 # uzaleznic (5,5) od rozmiaru pieciolini. pomyslec nad normowaniem
 def finishing_dilate(img):
-    kernel = np.ones((5, 5), np.uint8)
-    return cv2.dilate(img, kernel, iterations=1)
+    #kernel = np.ones((5, 5), np.uint8)
+    #return cv2.dilate(img, kernel, iterations=1)
+    return img

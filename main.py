@@ -1,15 +1,16 @@
-import cv2
 import sys
 import ImageServices.InOut as Img_io
-import ImageServices.Colors as Img_bas
-import Constants.Colors as Color
+import ImageServices.Transform as Img_bas
 from run_sequences import *
 
 
-filename = 'img/frag1/frag1'
-img = Img_io.load_img_grayscale(filename + '.png')
+filename = 'img/frag'
 
-binarized_img = Img_bas.binarize_img(img, filename)
-run_morphology_operations(binarized_img, filename)
+# img = Img_io.load_img_grayscale(filename + '.jpg')
+# binarized_img = Img_bas.binarize_img(img, filename)
+# run_morphology_operations(binarized_img, filename)
+
+run_segmentation(filename + '_test')
 
 sys.exit(0)
+
