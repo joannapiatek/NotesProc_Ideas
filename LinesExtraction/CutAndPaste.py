@@ -4,6 +4,33 @@ import Models.Geometry as Geom
 import ImageServices.InOut as Img_io
 
 
+def cut_white_elements(image, white_elements):
+    return change_color_if_white(image, white_elements, Color.BLACK)
+
+
+def paste_white_elements(image, white_elements):
+    return change_color_if_white(image, white_elements, Color.WHITE)
+
+
+def change_color_if_white(image, white_elements, color):
+    if not are_equal_sizes(image, white_elements):
+        raise ValueError('Arrays sizes are not the same')
+
+    img_height = np.shape(image)[0]
+    img_width = np.shape(image)[1]
+    result = image.copy()
+
+    for i in range(0, img_height - 1):
+        if Color.WHITE not in white_elements[i, :]:
+            continue
+        for j in range(0, img_width - 1):
+            pixel = Geom.Pixel(i, j, white_elements[i, j])
+            if any(value == Color.WHITE for value in pixel.value):
+                    result[i, j] = color
+
+    return result
+
+
 def paste_horizontal_notes_elements(vertical_notes, horizontal_lines):
     if not are_equal_sizes(vertical_notes, horizontal_lines):
         raise ValueError('Arrays sizes are not the same')

@@ -7,18 +7,31 @@ import ImageServices.InOut as Img_io
 
 def extract_plain_segments(img):
     segments_borders = []
-    im2, contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    im2, contours, hierarchy = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    for current_contours in contours:
+    selected_contours = contours
+    # for contour in contours:
+    #     area = cv2.contourArea(contour)
+    #     if area > 50:
+    #         selected_contours.append(contour)
+
+    for current_contours in selected_contours:
         segments_borders.append(get_segment_borders(current_contours))
 
+    min_size = 10
+    selected_borders = []
     for rect in segments_borders:
+        if rect.left_bott.x_coor - rect.left_up.x_coor > min_size \
+                and rect.right_bott.y_coor - rect.left_up.y_coor > min_size:
+            selected_borders.append(rect)
+
+    for rect in selected_borders:
         start = (rect.left_up.x_coor, rect.left_up.y_coor)
         end = (rect.right_bott.x_coor, rect.right_bott.y_coor)
-        cv2.rectangle(img, start, end, (128, 255, 0), 3)
+        cv2.rectangle(img, start, end, Colors.RED, 3)
 
     # cv2.drawContours(img, contours, -1, (128, 255, 0), 3)
-    Img_io.show_img(img, 'contours')
+    # Img_io.show_img(img, 'contours')
     return img
 
 
