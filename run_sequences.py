@@ -1,8 +1,8 @@
-import LinesExtraction.Morphology as Morph
-import LinesExtraction.CutAndPaste as CuP
+import SymbolsExtraction.Morphology as Morph
+import SymbolsExtraction.CutAndPaste as CuP
 import numpy as np
 import cv2
-import Segmentation.Borders as Segm
+import Segmentation.Segments as Segm
 import ImageServices.InOut as Img_io
 
 
@@ -15,9 +15,8 @@ def run_morphology_operations(binarized_img, filename):
     vertical = Morph.get_vertical_lines(binarized_img.copy(), img_size[0])
     cv2.imwrite(filename + '_vertical.png', vertical)
 
-    # test = CuP.paste_horizontal_notes_elements(vertical, horizontal)
-    # Img_io.show_img(test, 'test')
-    # cv2.imwrite(filename + '_horizontal_paste.png', test)
+    # resul    t = CuP.paste_horizontal_notes_elements(vertical, horizontal)
+    # cv2.imwrite(filename + '_result.png', result)
 
     #Morph.smooth_image_with_saving(vertical, filename)
 
@@ -25,7 +24,7 @@ def run_morphology_operations(binarized_img, filename):
 def cut_stafflines_paste_notes(filename):
     staff_lines = cv2.imread(filename + '_horizontal.png')
     notes = cv2.imread(filename + '_vertical' + '.png')
-    binarized_img = cv2.imwrite(filename + '_binarized.png')
+    binarized_img = cv2.imread(filename + '_binarized.png')
 
     result = CuP.cut_white_elements(binarized_img, staff_lines)
     # cv2.imwrite(filename + '_result_without_lines.png', result)
@@ -37,8 +36,7 @@ def cut_stafflines_paste_notes(filename):
 
     cv2.imwrite(filename + '_result.png', result)
 
-def run_segmentation(filename):
-    img = Img_io.load_img_grayscale(filename + '.png')
 
-    img_segments = Segm.extract_plain_segments(img)
-    cv2.imwrite(filename + '_segments.png', img_segments)
+def run_segmentation(filename):
+    img_segments = Segm.extract_plain_segments(filename)
+    Segm.save_image_segments(filename, img_segments)
