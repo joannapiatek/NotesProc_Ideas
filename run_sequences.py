@@ -15,10 +15,10 @@ def run_morphology_operations(binarized_img, filename):
     vertical = Morph.get_vertical_lines(binarized_img.copy(), img_size[0])
     cv2.imwrite(filename + '_vertical.png', vertical)
 
-    # resul    t = CuP.paste_horizontal_notes_elements(vertical, horizontal)
+    # result = CuP.paste_horizontal_notes_elements(vertical, horizontal)
     # cv2.imwrite(filename + '_result.png', result)
 
-    #Morph.smooth_image_with_saving(vertical, filename)
+    # Morph.smooth_image_with_saving(vertical, filename)
 
 
 def cut_stafflines_paste_notes(filename):
@@ -38,5 +38,5 @@ def cut_stafflines_paste_notes(filename):
 
 
 def run_segmentation(filename):
-    img_segments = Segm.extract_plain_segments(filename)
+    img_segments = Segm.extract_plain_segments(filename + '_result')
     Segm.save_image_segments(filename, img_segments)

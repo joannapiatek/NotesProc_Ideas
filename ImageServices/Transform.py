@@ -18,6 +18,7 @@ def binarize_img(img, filename, threshold=0):
 
 def count_binarization_threshold(img):
     colors_intensity, b, patches = plt.hist(img.ravel(), bins=range(0, 256), normed=True)
+    plt.close()
     background_color = np.argmax(colors_intensity)
     factor = (background_color * 50) / 255 - 15
     return background_color - factor

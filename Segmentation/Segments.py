@@ -8,15 +8,10 @@ import os
 
 def extract_plain_segments(filename):
     segments_borders = []
-    img = Img_io.load_img_grayscale(filename + '.png')
+    img = Img_io.load_img_grayscale(filename, 'png')
     im2, contours, hierarchy = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     selected_contours = contours
-    # for contour in contours:
-    #     area = cv2.contourArea(contour)
-    #     if area > 50:
-    #         selected_contours.append(contour)
-
     for current_contours in selected_contours:
         segments_borders.append(get_segment_borders(current_contours))
 
@@ -61,9 +56,10 @@ def get_segment_borders(contours):
 
 
 def save_image_segments(filename, segments):
-    img = Img_io.load_img_grayscale(filename + '.png')
+    img = Img_io.load_img_grayscale(filename, 'PNG')
     counter = 1
-    folder_path = os.path.dirname(filename)
+    new_folder_path = filename + '_crop/'
+    os.mkdir(new_folder_path)
 
     for rect in segments:
         x1 = rect.left_up.x_coor
@@ -72,6 +68,6 @@ def save_image_segments(filename, segments):
         y2 = rect.right_bott.y_coor
 
         crop_img = img[y1:y2, x1:x2]
-        crop_filename = folder_path + '/crop/' + str(counter) + '.png'
+        crop_filename = new_folder_path + str(counter) + '.png'
         cv2.imwrite(crop_filename, crop_img)
         counter += 1
