@@ -27,9 +27,9 @@ def cut_stafflines_paste_notes(filename):
     binarized_img = cv2.imread(filename + '_binarized.png')
 
     result = CuP.cut_white_elements(binarized_img, staff_lines)
-    # cv2.imwrite(filename + '_result_without_lines.png', result)
+    cv2.imwrite(filename + '_result_without_lines.png', result)
     result = CuP.paste_white_elements(result, notes)
-    # cv2.imwrite(filename + '_result_with_notes.png', result)
+    cv2.imwrite(filename + '_result_with_notes.png', result)
 
     kernel = np.ones((5, 5), np.uint8)
     result = cv2.morphologyEx(result, cv2.MORPH_OPEN, kernel)

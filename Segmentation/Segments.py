@@ -1,4 +1,3 @@
-import numpy as np
 import Constants.Colors as Colors
 import Models.Geometry as Geom
 import cv2
@@ -15,7 +14,7 @@ def extract_plain_segments(filename):
     for current_contours in selected_contours:
         segments_borders.append(get_segment_borders(current_contours))
 
-    min_size = 10
+    min_size = 5
     selected_borders = []
     for rect in segments_borders:
         if rect.left_bott.x_coor - rect.left_up.x_coor > min_size \
@@ -56,10 +55,12 @@ def get_segment_borders(contours):
 
 
 def save_image_segments(filename, segments):
-    img = Img_io.load_img_grayscale(filename, 'PNG')
+    img = cv2.imread(filename + '.PNG')
     counter = 1
     new_folder_path = filename + '_crop/'
     os.mkdir(new_folder_path)
+
+    background = cv2.imread("patterns/background.jpg")
 
     for rect in segments:
         x1 = rect.left_up.x_coor
@@ -68,6 +69,13 @@ def save_image_segments(filename, segments):
         y2 = rect.right_bott.y_coor
 
         crop_img = img[y1:y2, x1:x2]
+        if crop_img.shape[0] > background.shape[0] or crop_img.shape[1] > background.shape[1]:
+            continue
+
         crop_filename = new_folder_path + str(counter) + '.png'
-        cv2.imwrite(crop_filename, crop_img)
+
+        result = background.copy()
+        result[0:crop_img.shape[0], 0:crop_img.shape[1]] = crop_img
+
+        cv2.imwrite(crop_filename, result)
         counter += 1

@@ -25,7 +25,7 @@ def get_horizontal_lines(img, img_width):
 
 
 def get_vertical_lines(img, img_height):
-    vertical_size = img_height / 30
+    vertical_size = img_height / 85
     vertical_structure = get_vertical_structure(vertical_size)
     vertical = erode_and_dilate(img, vertical_structure, 1)
     return finishing_dilate(vertical)
