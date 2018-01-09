@@ -1,9 +1,9 @@
-import SymbolsExtraction.Morphology as Morph
-import SymbolsExtraction.CutAndPaste as CuP
-import numpy as np
 import cv2
-import Segmentation.Segments as Segm
-import ImageServices.InOut as Img_io
+import numpy as np
+
+import SymbolsExtraction.CutAndPaste as CuP
+import SymbolsExtraction.Morphology as Morph
+from SymbolsExtraction import Segmentation as Segm
 
 
 def run_morphology_operations(binarized_img, filename):

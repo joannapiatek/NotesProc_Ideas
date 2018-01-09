@@ -2,316 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669adfb-a6d6-4e5e-ab5b-e19c2e87e2b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Segmentation/Scaling.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/34_metre/34_metre_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/38_metre/38_metre_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/44_metre/44_metre_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/68_metre/68_metre_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/bass_clef/bass_clef_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/cross/cross_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_note/crotchet_note_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/crotchet_rest/crotchet_rest_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/flat/flat_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_note/half_note_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/half_rest/half_rest_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/natural/natural_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/34_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/38_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/44_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/68_metre.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/bass_clef.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/cross.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/crotchet_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/crotchet_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/flat.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/half_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/half_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/natural.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/quaver_double_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/quaver_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/quaver_single_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/semiquaver_four_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/semiquaver_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/semiquaver_single_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/treble_clef.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/whole_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/orig/whole_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_double_note/quaver_double_note_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/quaver_rest_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_rest/semiquaver_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/quaver_single_note_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/quaver_single_note/semiquaver_single_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/semiquaver_four_note/semiquaver_four_note_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_crop/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/treble_clef/treble_clef_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_note/whole_note_vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_binarized.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_crop/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_crop/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_crop/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_crop/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_crop/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_crop/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_result_segments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/patterns/whole_rest/whole_rest_vertical.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/Transform.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ImageServices/Transform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Segmentation/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photothumb.db" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ImageServices/InOut.py" afterPath="$PROJECT_DIR$/Common/InOut.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ImageServices/__init__.py" afterPath="$PROJECT_DIR$/Common/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Segmentation/Scaling.py" afterPath="$PROJECT_DIR$/Common/Scaling.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Segmentation/Segments.py" afterPath="$PROJECT_DIR$/SymbolsExtraction/Segmentation.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Segmentation/__init__.py" afterPath="$PROJECT_DIR$/SymbolsExtraction/Stafflines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Constants/Colors.py" afterPath="$PROJECT_DIR$/Constants/Colors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageServices/Transform.py" afterPath="$PROJECT_DIR$/ImageServices/Transform.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Segmentation/Segments.py" afterPath="$PROJECT_DIR$/Segmentation/Segments.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SymbolsExtraction/Morphology.py" afterPath="$PROJECT_DIR$/SymbolsExtraction/Morphology.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_sequences.py" afterPath="$PROJECT_DIR$/run_sequences.py" />
     </list>
@@ -327,94 +27,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transform.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageServices/Transform.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scaling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Segmentation/Scaling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Morphology.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SymbolsExtraction/Morphology.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Segments.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Segmentation/Segments.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InOut.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageServices/InOut.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_sequences.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_sequences.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CutAndPaste.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SymbolsExtraction/CutAndPaste.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#2367#2517#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -479,14 +92,15 @@
         <option value="$PROJECT_DIR$/SymbolsExtraction/Morphology.py" />
         <option value="$PROJECT_DIR$/Segmentation/Segments.py" />
         <option value="$PROJECT_DIR$/Segmentation/Scaling.py" />
-        <option value="$PROJECT_DIR$/ImageServices/Transform.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/ImageServices/Transform.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -507,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -543,35 +159,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Segmentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotesProc_Ideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotesProc_Ideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotesProc_Ideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotesProc_Ideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageServices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -589,14 +177,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotesProc_Ideas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NotesProc_Ideas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joanp\OneDrive\Semestr III\Magisterka\NotesProc_Ideas\SymbolsExtraction" />
+      <recent name="C:\Users\joanp\OneDrive\Semestr III\Magisterka\NotesProc_Ideas\Common" />
       <recent name="C:\Users\joanp\OneDrive\Semestr III\Magisterka\NotesProc_Ideas" />
     </key>
   </component>
@@ -794,27 +396,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19603524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1954612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28706625" sideWeight="0.8674963" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4274448" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28706625" sideWeight="0.8674963" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4274448" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -844,7 +446,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ImageServices/InOut.py</url>
+          <url>file://$PROJECT_DIR$/Common/InOut.py</url>
           <line>35</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
@@ -859,13 +461,12 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="174" />
+      <option name="time" value="176" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thresholding.py" />
-    <entry file="file://$PROJECT_DIR$/ImageServices/InOut.py">
+    <entry file="file://$PROJECT_DIR$/Common/InOut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
@@ -876,9 +477,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +499,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thresholding.py" />
-    <entry file="file://$PROJECT_DIR$/ImageServices/InOut.py">
+    <entry file="file://$PROJECT_DIR$/Common/InOut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
@@ -911,9 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,9 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,9 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -962,9 +555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -986,9 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,9 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageServices/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Common/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1142,32 +729,33 @@
     <entry file="file://$PROJECT_DIR$/Constants/Colors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_sequences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SymbolsExtraction/CutAndPaste.py">
+    <entry file="file://$PROJECT_DIR$/SymbolsExtraction/Segmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="47" />
           <folding>
-            <element signature="e#2367#2517#0" expanded="false" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageServices/InOut.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/InOut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1175,52 +763,58 @@
     <entry file="file://$PROJECT_DIR$/Models/Geometry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Segmentation/Segments.py">
+    <entry file="file://$PROJECT_DIR$/Common/Scaling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SymbolsExtraction/CutAndPaste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#2367#2517#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SymbolsExtraction/Morphology.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="306">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageServices/Transform.py">
+    <entry file="file://$PROJECT_DIR$/SymbolsExtraction/Stafflines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Segmentation/Scaling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
