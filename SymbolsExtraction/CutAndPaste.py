@@ -1,7 +1,6 @@
 import numpy as np
 import Constants.Colors as Color
 import Models.Geometry as Geom
-import ImageServices.InOut as Img_io
 
 
 def cut_white_elements(image, white_elements):

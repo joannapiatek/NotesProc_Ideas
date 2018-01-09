@@ -19,6 +19,7 @@ def run_morphology_operations(binarized_img, filename):
     # cv2.imwrite(filename + '_result.png', result)
 
     # Morph.smooth_image_with_saving(vertical, filename)
+    return horizontal, vertical
 
 
 def cut_stafflines_paste_notes(filename):
