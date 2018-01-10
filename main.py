@@ -3,7 +3,7 @@ import Common.InOut as IO
 import Common.Transform as Transform
 import SymbolsExtraction.Stafflines as Stafflines
 
-from run_sequences import *
+# from run_sequences import *
 
 
 # dir_path = 'patterns/100/note_dot/'
