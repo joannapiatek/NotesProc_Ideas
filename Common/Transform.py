@@ -8,10 +8,10 @@ def binarize_img(img, filename, threshold=0):
     # 11 - uzalezniac od r-ru pieciolini
     img = cv2.GaussianBlur(img, (5, 5), 0)
 
-    # if threshold == 0:
-    #     threshold = count_binarization_threshold(img)
+    if threshold == 0:
+       threshold = count_binarization_threshold(img)
 
-    # ret, binarized_img = cv2.threshold(img, threshold, Color.WHITE, cv2.THRESH_BINARY_INV)
+    ret, binarized_img = cv2.threshold(img, threshold, Color.WHITE, cv2.THRESH_BINARY_INV)
     # ret, binarized_img = cv2.threshold(img, Color.BLACK, Color.WHITE, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
     # binarized_img = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, \
     #                             cv2.THRESH_BINARY_INV, 11, 2)

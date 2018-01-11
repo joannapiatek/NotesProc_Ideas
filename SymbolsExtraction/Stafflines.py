@@ -3,6 +3,8 @@ from itertools import *
 from collections import Counter
 import Constants.Colors as Color
 import cv2
+import Models.Geometry as Geom
+import matplotlib.pyplot as plt
 from operator import itemgetter
 
 
@@ -57,28 +59,57 @@ def add_space(lines_set, space_height):
 
 def get_stafflines_coordinates(binarized_img, stafflines_model):
     window_height = len(stafflines_model)
+    width = np.shape(binarized_img)[1]
 
+    # line_count = -1
     i = -1
-    similar_columns = 0
-    similar_columns_enough = int(window_height/25)
+    # similar_columns = 0
+    # similar_columns_enough = int(window_height/25)
+    supposed_stafflines = []
+    # supposed_stafflines_x = []
+    # supposed_stafflines_y = []
+
     for line in binarized_img:
+        # line_count += 1
+        # if line_count < i+1:
+        #     continue
         i += 1
 
         if Color.WHITE not in line:
             continue
 
         white_index = line.tolist().index(Color.WHITE)
+        if white_index > width/4:
+            continue
 
         column = [row[white_index] for row in binarized_img]
         window = np.array(column[i: i + window_height])
 
         similarity = np.mean(stafflines_model == window)
-        if similarity > 0.85:
+        if similarity > 0.9:
+            # supposed_stafflines_x.append(-white_index)
+            # supposed_stafflines_y.append(-i)
             # similar_columns += 1
             # if similar_columns == similar_columns_enough:
-                start_classfication(binarized_img, white_index, i, window_height)
-                i += window_height - 1
-                # similar_columns = 0
+            supposed_stafflines.append(Geom.Point(white_index, i))
+
+            # i += window_height - 1
+            # similar_columns = 0
+
+    # plt.plot(supposed_stafflines_x, supposed_stafflines_y, "o")
+    #
+    # plt.xlabel('time (s)')
+    # plt.ylabel('voltage (mV)')
+    # plt.title('About as simple as it gets, folks')
+    # plt.grid(True)
+    # plt.savefig("plot.png")
+    # plt.show()
+
+    for point in supposed_stafflines:
+        cv2.drawMarker(binarized_img, (point.x_coor, point.y_coor), (128, 255, 0), cv2.MARKER_STAR, 30, 3)
+        start_classfication(binarized_img, point.x_coor, point.y_coor, window_height)
+
+    cv2.imwrite('marked.png', binarized_img)
 
     return 0
 

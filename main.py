@@ -16,14 +16,14 @@ for file_basename in files_base_names:
 
     img = IO.load_img_grayscale(filename, ext)
 
-    line_height, space_height = Stafflines.calc_staff_heights(img)
-    stafflines_model = Stafflines.create_stafflines_set_model(line_height, space_height)
+    # line_height, space_height = Stafflines.calc_staff_heights(img)
+    # stafflines_model = Stafflines.create_stafflines_set_model(line_height, space_height)
 
     # img = scal.resize_image(img, filename)
-    # binarized_img = Transform.binarize_img(img, filename)
+    binarized_img = Transform.binarize_img(img, filename)
 
     # horizontal, vertical = run_morphology_operations(img, filename)
-    Stafflines.get_stafflines_coordinates(img, stafflines_model)
+    # Stafflines.get_stafflines_coordinates(img, stafflines_model)
 
     # cut_stafflines_paste_notes(filename)
     # run_segmentation(filename)
